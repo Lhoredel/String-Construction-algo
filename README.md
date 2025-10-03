@@ -1,1 +1,2 @@
 # String-Construction-algo
+This code solves the String Construction problem by calculating the minimum cost to build a string when appending characters is free but adding new distinct characters costs $1. It leverages the insight that cost depends only on the number of unique characters needed, not their frequency or order. The algorithm efficiently computes this by counting distinct characters in the target string using LINQ's Distinct() method.
